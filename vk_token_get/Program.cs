@@ -12,8 +12,6 @@ namespace vk_token_get
         {
             if (args.Length<3 || !Information.IsNumeric(args[0]))
             {
-
-
                 Console.WriteLine("VkTokenGet v1.0");
                 Console.WriteLine("----------------------------------");
                 Console.WriteLine("author: https://www.youtube.com/glebbrainofficial");
@@ -64,7 +62,7 @@ namespace vk_token_get
                         token = ex.Message.ToString().Split(new string[] { @"%253D" }, StringSplitOptions.RemoveEmptyEntries).GetValue(1).ToString().Split(new string[] { @"%2526" }, StringSplitOptions.RemoveEmptyEntries).GetValue(0).ToString();
                         Console.WriteLine("access_token:"+token);
                         Console.WriteLine("----------------------------------");
-                        Console.WriteLine("raw url: " + ex.Message.ToString());
+                        Console.WriteLine("raw url:" + ex.Message.ToString());
                     }
                     else
                     {
@@ -72,7 +70,6 @@ namespace vk_token_get
                         Console.WriteLine(ex.Message.ToString());
                     }
                 }
-
             }
         }
     }
