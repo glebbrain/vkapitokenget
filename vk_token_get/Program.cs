@@ -17,7 +17,7 @@ namespace vk_token_get
                 Console.WriteLine("VkTokenGet v1.0");
                 Console.WriteLine("----------------------------------");
                 Console.WriteLine("author: https://www.youtube.com/glebbrainofficial");
-                Console.WriteLine("git: ");
+                Console.WriteLine("git: https://github.com/glebbrain/vkapitokenget");
                 Console.WriteLine("NetFramework v5.0");
                 Console.WriteLine("VkNet v1.59");
                 Console.WriteLine("git: https://github.com/vknet/vk");
